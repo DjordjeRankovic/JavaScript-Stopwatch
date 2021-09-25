@@ -1,0 +1,38 @@
+body {
+  background-color: #191919;
+  color: #ffcd00;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 2.5em;
+  color: white;
+}
+
+button {
+  width: 100px;
+  margin: 20px;
+  padding: 10px;
+  background: transparent;
+  outline: none;
+  border: 2px solid #ffcd00;
+  border-radius: 5px;
+  color: #ffcd00;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffcd00;
+  color: #191919;
+  font-weight: bold;
+}
